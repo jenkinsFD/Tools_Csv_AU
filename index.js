@@ -17,8 +17,8 @@ https://marak.github.io/faker.js/#toc7__anchor
     let dd = String(today.getDate()).padStart(2, '0');
     let mm = String(today.getMonth() + 1).padStart(2, '0'); //Enero es 0!
     let yyyy = today.getFullYear();
-    let today = dd + '_' + mm + '_' +  yyyy;
-    let dateS = yyyy + '-' + mm + '-' + dd;
+     today = dd + '_' + mm + '_' +  yyyy;
+     dateS = yyyy + '-' + mm + '-' + dd;
     let uui = faker.random.number();
 
     let ArrayAirlines = ["VW","AA","AF","IJ","WS","AE","SS","AS","GH","LB","EW","AJ"];
