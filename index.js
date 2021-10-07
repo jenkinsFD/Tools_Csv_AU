@@ -5,6 +5,7 @@ const faker = require('faker');
 const fs = require('fs');
 const Papa = require('papaparse');
 var usaCities = require('./USCities3.js');
+const path = require('./workspace/Job_Transaction_AA_RandomData_NewMan/');
 
 
 /*
@@ -195,7 +196,7 @@ https://marak.github.io/faker.js/#toc7__anchor
     
     var textCsv = Papa.unparse(arrayData);
 
-    fs.writeFile(nameFile, textCsv, (error) => {
+    fs.writeFile("./workspace/Job_Transaction_AA_RandomData_NewMan/"+nameFile, textCsv, (error) => {
         if (error) {
             throw error;
         }
